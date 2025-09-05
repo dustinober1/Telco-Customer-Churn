@@ -3,3 +3,5 @@ numpy
 jupyter
 scikit-learn
 shap
+matplotlib
+seaborn

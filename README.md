@@ -6,6 +6,8 @@ This workspace contains the first notebook for a churn prediction project.
 
 Files:
 - `notebooks/01-data-cleaning.ipynb` — initial cleaning and encoding, saves cleaned CSV to `data/cleaned_telco_churn.csv`
+- `notebooks/01-data-cleaning.ipynb` — initial cleaning and encoding, saves cleaned CSV to `data/cleaned_telco_churn.csv`
+- `notebooks/02-eda.ipynb` — exploratory data analysis: distributions, churn rates by group, and figures saved to `reports/figures/`
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv` — original dataset (source: public dataset used widely)
 
 How to run:
