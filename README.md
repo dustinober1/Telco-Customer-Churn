@@ -24,3 +24,13 @@ Results from running `notebooks/01-data-cleaning.ipynb` (executed):
 - Because the missing fraction was small (<=5%), those 11 rows were dropped. New shape after handling `TotalCharges`: 7032 rows × 21 columns
 - After trimming and one-hot encoding of categorical variables, the final cleaned dataset shape is 7032 rows × 47 columns
 - Cleaned CSV saved to `data/cleaned_telco_churn.csv`
+
+Results from running `notebooks/02-eda.ipynb` (executed):
+
+- Cleaned data loaded: 7032 rows × 47 columns
+- Key numeric columns: SeniorCitizen, tenure, MonthlyCharges, TotalCharges
+- Churn rate by contract (from EDA summary):
+	- Month-to-month: ~42.7% (count 3875)
+	- One year: ~11.3% (count 1472)
+	- Two year: ~2.8% (count 1685)
+- Figures and correlation heatmap saved to `reports/figures/` and a small table of churn rates saved to `reports/eda_summary.csv`
